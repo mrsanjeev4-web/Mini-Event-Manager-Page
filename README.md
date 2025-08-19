@@ -32,7 +32,7 @@ Lucide React – For modern icons
 
 Clone the repository
 
-git clone https://github.com/mrsanjeev4-web/events-manager.git
+git clone https://github.com/mrsanjeev4-web/Mini-Event-Manager-Page.git
 cd events-manager
 
 
