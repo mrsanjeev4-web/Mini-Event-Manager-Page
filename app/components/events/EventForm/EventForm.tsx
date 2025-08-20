@@ -83,7 +83,7 @@ export const EventForm: React.FC<EventFormProps> = ({
           type="submit"
           disabled={isSubmitting || isLoading}
           isLoading={isSubmitting || isLoading}
-          className="w-full"
+          className="w-full cursor-pointer"
         >
           <div className="flex items-center">
             <svg className="w-5 h-5 mr-2 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
