@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 flex flex-col">
-      {/* Header */}
+      
       <header className="w-full px-6 py-4 flex justify-between items-center shadow-sm bg-white/70 backdrop-blur-md sticky top-0">
         <h1 className="text-2xl font-bold text-gray-900">PyCray</h1>
         <nav>
@@ -16,7 +16,7 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Hero Section */}
+     
       <section className="flex-1 flex flex-col items-center justify-center text-center px-6 py-20 relative overflow-hidden">
         {/* Subtle background circle */}
         <div className="absolute w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-40 -z-10 top-20 left-1/2 -translate-x-1/2"></div>
@@ -42,7 +42,7 @@ export default function Home() {
 
       </section>
 
-      {/* Features Section */}
+      
       <section className="py-20 bg-gray-50 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
           <div className="p-8 bg-white shadow-md rounded-xl hover:shadow-lg transition">
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
+     
       <footer className="py-6 text-center text-gray-500 border-t">
         &copy; {new Date().getFullYear()} PyCray Technology 
       </footer>
