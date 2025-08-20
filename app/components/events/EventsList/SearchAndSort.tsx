@@ -27,7 +27,7 @@ export const SearchAndSort: React.FC<SearchAndSortProps> = ({
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
           className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-gray-50/50"
-          placeholder="Search events... (debounced)"
+          placeholder="Search events..."
         />
         {searchTerm && (
           <button
