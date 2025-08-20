@@ -71,7 +71,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-6 text-center text-gray-500 border-t">
-        &copy; {new Date().getFullYear()} PyCray Technology • Assignment Demo
+        &copy; {new Date().getFullYear()} PyCray Technology 
       </footer>
     </main>
   );
